@@ -22,7 +22,6 @@ Open input file and output file simultaneously, use "with open" method
 			Check if soft clipped by checking if bit 16 is true in column 5 CIGAR
 				if ((flag & 16) == 16) :
 					rev_comp = True
-					This makes 
 				Use regex to extract the number which precedes the S in the CIGAR string or until it reaches another character or whitespace.
 					Append it to the string "key"
 			if string named "key" does not exist in dupe_dict:
